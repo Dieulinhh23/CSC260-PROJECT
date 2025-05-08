@@ -15,7 +15,7 @@ public class Main {
             System.out.print("Choose an option (1-4): ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -29,7 +29,7 @@ public class Main {
                 case 3:
                     System.out.print("Enter task number to delete: ");
                     int taskIndex = scanner.nextInt();
-                    scanner.nextLine(); // Consume the newline
+                    scanner.nextLine();
                     taskManager.deleteTask(taskIndex);
                     break;
                 case 4:
